@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD - Integración Continua y Despliegue Continuo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+    <header>
+        <h1>CI/CD: Integración Continua y Despliegue Continuo</h1>
+        <nav>
+            <ul>
+                <li><a href="#what-is">¿Qué es CI/CD?</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#tools">Herramientas</a></li>
+                <li><a href="#github-actions">GitHub Actions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-6">
+            <main>
+                <section id="what-is">
+                    <h2>¿Qué es CI/CD?</h2>
+                    <p>
+                        CI/CD son prácticas de desarrollo de software que permiten una integración y entrega continua de código. 
+                        Esto significa que los cambios en el código se integran y despliegan automáticamente en entornos de producción.
+                    </p>
+                </section>
+        
+                <section id="benefits">
+                    <h2>Beneficios de CI/CD</h2>
+                    <ul>
+                        <li>Reducción de errores en producción.</li>
+                        <li>Despliegues más rápidos y frecuentes.</li>
+                        <li>Mejor colaboración entre equipos de desarrollo.</li>
+                    </ul>
+                </section>
+        
+                <section id="tools">
+                    <h2>Herramientas de CI/CD</h2>
+                    <p>Existen varias herramientas populares que facilitan CI/CD:</p>
+                    <ul>
+                        <li>Jenkins</li>
+                        <li>GitHub Actions</li>
+                        <li>Travis CI</li>
+                        <li>CircleCI</li>
+                        <li>GitLab CI</li>
+                    </ul>
+                </section>
+        
+                <section id="github-actions">
+                    <h2>GitHub Actions</h2>
+                    <p>
+                        GitHub Actions es una herramienta de CI/CD integrada en GitHub que permite automatizar flujos de trabajo directamente en el repositorio. 
+                        Permite a los desarrolladores crear acciones que se ejecutan en respuesta a eventos, como pushes o pull requests.
+                    </p>
+                    <p>
+                        Al implementar GitHub Actions, los equipos pueden:
+                    </p>
+                    <ul>
+                        <li>Automatizar pruebas y validaciones de código.</li>
+                        <li>Desplegar aplicaciones automáticamente en entornos de producción.</li>
+                        <li>Personalizar flujos de trabajo mediante el uso de YAML para definir acciones y secuencias de comandos.</li>
+                    </ul>
+                    <p>
+                        Esto mejora la eficiencia y reduce el riesgo de errores, ya que las acciones se pueden configurar para ejecutarse automáticamente cada vez que se produce un cambio en el código.
+                    </p>
+                </section>
+            </main>
+          </div>
+          <div class="col-sm-9 col-md-6">
+            <div class="text-center mt-4 bm-2"><h3><b>Taller - Parcial - Jhon Stewar Moreno Murillo</b></h3></div>
+
+            <section class="pregunta-one">
+                <h6 class="mt-4 mb-4">1. Realizar este mini curso y responder a la pregunta ¿Cuáles son las
+                    prácticas recomendadas por AWS para la adopción de la nube híbrida? 
+                    </h6>
+                    <div class="container-picture">
+                        <img src="image/image.png" alt="">
+                    </div> 
+            </section>
+            <section class="pregunta-two">
+                <h6 class="mt-4 mb-4">2. Vamos a dar un vistazo general al proceso de CI/CD realizando los
+                    siguientes pasos:   
+                    </h6>
+                <p>A.  Ver el video introductorio al tema Devops y CI/CD. : <span class="badge bg-success">Completado</span></p>
+                <p>B.   Investigar y responder a:</p>
+                <ul>
+                    <li class="mb-3"><span class="badge bg-success">¿Qué es la cultura DevOps?: </span> La cultura DevOps es una combinación de filosofías, prácticas y herramientas que mejoran la capacidad de una organización para entregar aplicaciones y servicios a gran velocidad. En lugar de enfoques tradicionales que separan el desarrollo y las operaciones, DevOps fomenta la colaboración entre estos equipos para automatizar y optimizar los procesos de desarrollo y despliegue de software, mejorando la calidad, la eficiencia y la entrega continua.</li>
+
+                    <li class="mb-3"><span class="badge bg-success">¿Qué es CI/CD? CI/CD : </span> es la abreviatura de Integración Continua (Continuous Integration) y Entrega Continua/Despliegue Continuo (Continuous Delivery/Continuous Deployment). La Integración Continua (CI) es la práctica de fusionar los cambios de código de los desarrolladores en un repositorio compartido de forma frecuente, para que se realicen pruebas automáticas y garantizar que el código esté siempre en condiciones de integrarse sin errores. CD, por su parte, implica la automatización de todo el ciclo de vida del desarrollo de software, desde la integración hasta el despliegue, asegurando que las nuevas versiones se puedan implementar de manera rápida y segura.</li>
+
+                    <li class="mb-3"><span class="badge bg-success">¿Qué es un Pipeline CI/CD? : </span> Un Pipeline CI/CD es una secuencia automatizada de pasos o procesos que permiten compilar, probar y desplegar código de manera eficiente. Un pipeline generalmente consta de etapas como la integración del código, ejecución de pruebas unitarias, construcción del software y despliegue en entornos de prueba o producción. Todo esto ocurre de forma automática y continua para asegurar que el software sea desplegado de manera segura y rápida.</li>
+
+                    <li class="mb-3"><span class="badge bg-success">¿Qué es Git y Github?  : </span> Git es un sistema de control de versiones distribuido que permite a los desarrolladores gestionar y rastrear cambios en el código fuente de sus proyectos. Facilita la colaboración entre múltiples desarrolladores, permitiendo el trabajo en diferentes ramas de un proyecto sin interferencias. GitHub, por otro lado, es una plataforma de alojamiento basada en la nube para proyectos que utilizan Git. GitHub facilita el almacenamiento de repositorios Git, el control de versiones, la colaboración en proyectos de software y la integración con herramientas CI/CD para automatizar los flujos de trabajo.</li>
+
+                    <li class="mb-3"><span class="badge bg-success">¿Qué son GitHub Actions? : </span> GitHub Actions es una herramienta de automatización proporcionada por GitHub que permite crear flujos de trabajo personalizados dentro de un repositorio. Estos flujos de trabajo pueden desencadenarse por eventos como commits o pull requests y permiten realizar tareas como la ejecución de pruebas, la construcción de proyectos o la implementación de aplicaciones.</li>
+
+                    <li class="mb-3"><span class="badge bg-success">Jobs : </span>  Son los trabajos o tareas que se ejecutan en el flujo de trabajo. Un flujo de trabajo puede tener uno o varios trabajos, y estos pueden ejecutarse en paralelo o secuencialmente.</li>
+                    <ul>
+                        <li class="mb-3"><span class="badge bg-success">Eventos : </span> Son las acciones que desencadenan la ejecución de un flujo de trabajo, como una "push", un "pull request" o un "issue" en el repositorio.</li>
+                        <li class="mb-3"><span class="badge bg-success">Steps : </span> Son los pasos individuales que conforman un job. Cada step puede ejecutar comandos específicos, como instalar dependencias, ejecutar pruebas o desplegar código.</li>
+                     
+                    </ul>
+                   
+                </ul>
+
+            </section>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <footer>
+        <p>&copy; 2024 CI/CD Website. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
